@@ -20,6 +20,9 @@ const TestAPI1 = () => {
                     <th>weightedAvgPrice</th>
                     <th>prevClosePrice</th>
                     <th>lastPrice</th>
+                    <th>lastQty</th>
+                    <th>bidPrice</th>
+                    <th>lastPrice</th>
                 </thead>
                 <tbody>
                     {data.map((val) => {
@@ -30,6 +33,9 @@ const TestAPI1 = () => {
                                 <td>{val.priceChangePercent}</td>
                                 <td>{val.weightedAvgPrice}</td>
                                 <td>{val.prevClosePrice}</td>
+                                <td>{val.lastPrice}</td>
+                                <td>{val.lastQty}</td>
+                                <td>{val.bidPrice}</td>
                                 <td>{val.lastPrice}</td>
                             </tr>
                         )

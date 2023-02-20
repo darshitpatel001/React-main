@@ -156,9 +156,9 @@ root.render(
     {/* ---------------------------------test--------------------------- */}
     {/* <Data /> */}
     {/* <Formtest /> */}
-    {/* <TestAPI1 /> */}
+    <TestAPI1 />
     {/* <TestAPI2 /> */}
-    <TestAPI3 />
+    {/* <TestAPI3 /> */}
     {/* <TestAPI4 />/ */}
     {/* <TestAPI5 /> */}
     {/* <TestAPI6 /> */}
