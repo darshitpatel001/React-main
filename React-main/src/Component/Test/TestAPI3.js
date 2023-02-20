@@ -16,6 +16,9 @@ const TestAPI3 = () => {
                         <td>{val.Nation}</td>
                         <td>{val.Year}</td>
                         <td>{val.Population}</td>
+                        <td>{val.Nation}</td>
+                        <td>{val.Year}</td>
+                        <td>{val.Population}</td>
                     </tr>
                 )
             })}
