@@ -20,7 +20,6 @@ const Product = () => {
                                 <h5 className="card-title">{val.title}</h5>
                                 <h5 className="card-title">{val.price}</h5>
                                 <p className="card-text">{val.description}</p>
-                                {/* <p ></p> */}
                                 <img src={val.image} className='w-50 mx-auto' alt="" />
                                 <p >{val.rating.rate}</p>
                                 <a href="#" className="btn btn-outline-primary">Go somewhere</a>
