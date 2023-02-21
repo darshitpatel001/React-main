@@ -221,7 +221,7 @@ root.render(
     {/* <AudioTask /> */}
 
     {/* ------------------ -Routers --------------------- */}
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Headers />
       <Routes>
         <Route path='/' element={<Homes />}>Home</Route>
@@ -236,7 +236,7 @@ root.render(
         <Route path='*' element={<Error />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter> */}
+    </BrowserRouter>
 
     {/* ====================================W3 School==================================== */}
     {/* <BrowserRouter>
