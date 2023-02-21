@@ -148,7 +148,7 @@ root.render(
     {/* ---------------------------------API/UseEffect--------------------------- */}
 
     {/* <DataAxios /> */}
-    {/* <Fetch /> */}
+    <Fetch />
     {/* <Task /> */}
     {/* ---------------------------------API/UseEffect LEVEL-2 --------------------------- */}
     {/* <Counteruseeffect /> */}
@@ -327,7 +327,7 @@ root.render(
 
     {/* <DefaultProps /> */}
     {/* <DynamicForm /> */}
-    <Level3Form />
+    {/* <Level3Form /> */}
 
 
 

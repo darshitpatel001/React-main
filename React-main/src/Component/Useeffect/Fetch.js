@@ -6,7 +6,7 @@ export default function Fetch() {
     useEffect(() => {
         // fetch(" https://fakestoreapi.com/products")
         // fetch(" https://api.escuelajs.co/api/v1/categories")
-        fetch(" https://jsonplaceholder.typicode.com/users")
+        fetch("https://jsonplaceholder.typicode.com/users")
             .then(r => r.json())
             .then(r => {
                 setdata(r)
@@ -66,14 +66,14 @@ export default function Fetch() {
                             <tr>
                                 {/* <td>{value.id}</td> */}
                                 <td>{value.id}</td>
-                                {/* <td>{value.username}</td>
+                                 <td>{value.username}</td>
                                 <td>{value.email}</td>
                                 <td>{value.address.street}</td>
                                 <td>{value.address.suite}</td>
                                 <td>{value.address.city}</td>
                                 <td>{value.address.zipcode}</td>
                                 <td>{value.address.geo.late}</td>
-                                <td>{value.address.geo.lng}</td> */}
+                                <td>{value.address.geo.lng}</td> 
                             </tr>
                         </table>
                     </>
