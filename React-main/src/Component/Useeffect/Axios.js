@@ -88,7 +88,9 @@ import { React, useState, useEffect } from 'react';
 const DataAxios = () => {
     const [data, setdata] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/comments").then(y => y.json()).then((y) => { setdata(y) })
+        fetch("https://jsonplaceholder.typicode.com/comments")
+        .then(y => y.json())
+        .then((y) => { setdata(y) })
     }, []);
     return (
         <div>
