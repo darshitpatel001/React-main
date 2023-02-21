@@ -239,7 +239,7 @@ root.render(
     </BrowserRouter> */}
 
     {/* ====================================W3 School==================================== */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Headersw3 />
       <Routes>
         <Route path='/' element={<Homew3 />}>CSS</Route>
@@ -256,7 +256,7 @@ root.render(
           <Route path='' element={<Js2 />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
 
 
     {/* ======================================File uplode===================================== */}
